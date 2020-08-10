@@ -12,7 +12,6 @@
  @mixin dash{position: relative; width: 15px; float: left; top: 12px; margin-right: 5px;}
 
  @mixin dashtext{font-size: 14px;font-weight:500;}
-
  @mixin dashboxtitle{margin-bottom: 116px;font-weight: $Light;margin-top:16px;font-size:28px;}
 
  @mixin overlaybox{padding: 40px;right: -25%; margin: 68px 0px 65px 0px; position: absolute;top: 0; }
@@ -116,14 +115,14 @@ ul{ padding: 0px;
  .investors_icon{width: 12px; height: 12px; background-color: var(--colors-additional-dark-grey);}
 
 .invest{
-    background-image: url('../images/redirect.svg');
+    background-image: url('images/redirect.svg');
     background-repeat: no-repeat;
     background-position: left;
     padding-left: 5px;
 }
 
 .globe{
-    background-image: url('../images/globe.svg');
+    background-image: url('images/globe.svg');
     background-repeat: no-repeat;
     background-position: left;
     padding-left: 5px;
@@ -430,7 +429,7 @@ left: 8px;
  .morestories{
     position:relative; 
     color: $purplecolorfont;letter-spacing:$standered;z-index:1;
-    background-image: url('../images/greybg.svg');background-repeat: no-repeat; background-position: 0px 2%;background-size:100%;background-position: center bottom;
+    background-image: url('images/greybg.svg');background-repeat: no-repeat; background-position: 0px 2%;background-size:100%;background-position: center bottom;
     background-size: cover;
     float: left;
     width: 100%;
@@ -466,7 +465,7 @@ left: 8px;
      &:hover{margin-left: 20px;} 
   }
 }
- .lineshape{position:relative;z-index:1;background-image: url('../images/line.svg');position: absolute;width: 100%; height:80em; top: 142px;background-repeat: no-repeat;background-size: 100%;}
+ .lineshape{position:relative;z-index:1;background-image: url('images/line.svg');position: absolute;width: 100%; height:80em; top: 142px;background-repeat: no-repeat;background-size: 100%;}
 
  .readall{@include allbutton;
     &:hover {
@@ -497,7 +496,7 @@ left: 8px;
 
     &::after{
         content: "";
-   background-image: url('../images/purplearrowsmall.svg');
+   background-image: url('images/purplearrowsmall.svg');
     width: 23px;
     background-repeat: no-repeat;
     height: 14px;
@@ -525,8 +524,8 @@ background: linear-gradient(#f7f7f7 50%, #f7f7f74f);
     width: 100%;float: left;margin-bottom:128px;
     font-family:'Ubuntu';overflow: hidden;
 
-    background: url('../images/xl-shape-2.svg') no-repeat 50% calc(100% - 50px)/100% auto,
-    url('../images/xl-line-2.svg') no-repeat bottom/100% auto;
+    background: url('images/xl-shape-2.svg') no-repeat 50% calc(100% - 50px)/100% auto,
+    url('images/xl-line-2.svg') no-repeat bottom/100% auto;
     background-repeat: no-repeat;background-size: 100%;background-position: 100% 85%;
     .boxflorocent{background-color:#95e616; width: 483px; 
         padding: 40px;
@@ -731,7 +730,7 @@ a{color: $purplecolorfont;}
 
     .our-insights {
 
-    background: url(../images/gredientbg.svg) no-repeat 50% calc(100% - 50px)/100% auto, url(../images/mobile-line-2.svg) no-repeat bottom/100% auto;
+    background: url(images/gredientbg.svg) no-repeat 50% calc(100% - 50px)/100% auto, url(images/mobile-line-2.svg) no-repeat bottom/100% auto;
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: 100% 92%;
@@ -741,7 +740,7 @@ a{color: $purplecolorfont;}
 
     }
     .morestories{
-        background-image: url(../images/mobile-shape-top.svg); margin-top: 79px; padding-top: 100px; background-position: center -14%; background-size: 100%; background-position: revert;
+        background-image: url(images/mobile-shape-top.svg); margin-top: 79px; padding-top: 100px; background-position: center -14%; background-size: 100%; background-position: revert;
          padding-top:250px;z-index: 1;
 
          background-image: linear-gradient(#f7f7f7, #f7f7f7 100%);
@@ -832,7 +831,7 @@ a{color: $purplecolorfont;}
     } 
      .navbar{padding: 0px!important;}
      .navbar-light .navbar-toggler{border: 0px;}
-     .lineshape{background-image: url(../images/mobile-line-blue.svg);background-size: contain;}
+     .lineshape{background-image: url(images/mobile-line-blue.svg);background-size: contain;}
 
        
    
