@@ -89,13 +89,13 @@ body {
   background-color: var(--colors-additional-dark-grey); }
 
 .invest {
-  background-image: url("../images/redirect.svg");
+  background-image: url("images/redirect.svg");
   background-repeat: no-repeat;
   background-position: left;
   padding-left: 5px; }
 
 .globe {
-  background-image: url("../images/globe.svg");
+  background-image: url("images/globe.svg");
   background-repeat: no-repeat;
   background-position: left;
   padding-left: 5px; }
@@ -354,7 +354,7 @@ nav {
   color: #15011d;
   letter-spacing: 0.12px;
   z-index: 1;
-  background-image: url("../images/greybg.svg");
+  background-image: url("images/greybg.svg");
   background-repeat: no-repeat;
   background-position: 0px 2%;
   background-size: 100%;
@@ -421,7 +421,7 @@ nav {
 .lineshape {
   position: relative;
   z-index: 1;
-  background-image: url("../images/line.svg");
+  background-image: url("images/line.svg");
   position: absolute;
   width: 100%;
   height: 80em;
@@ -470,7 +470,7 @@ nav {
     z-index: -1; }
   .readall::after {
     content: "";
-    background-image: url("../images/purplearrowsmall.svg");
+    background-image: url("images/purplearrowsmall.svg");
     width: 23px;
     background-repeat: no-repeat;
     height: 14px;
@@ -491,7 +491,7 @@ nav {
   margin-bottom: 128px;
   font-family: 'Ubuntu';
   overflow: hidden;
-  background: url("../images/xl-shape-2.svg") no-repeat 50% calc(100% - 50px)/100% auto, url("../images/xl-line-2.svg") no-repeat bottom/100% auto;
+  background: url("images/xl-shape-2.svg") no-repeat 50% calc(100% - 50px)/100% auto, url("images/xl-line-2.svg") no-repeat bottom/100% auto;
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: 100% 85%; }
@@ -814,7 +814,7 @@ footer {
   .header-top-links {
     display: none !important; }
   .our-insights {
-    background: url(../images/gredientbg.svg) no-repeat 50% calc(100% - 50px)/100% auto, url(../images/mobile-line-2.svg) no-repeat bottom/100% auto;
+    background: url(images/gredientbg.svg) no-repeat 50% calc(100% - 50px)/100% auto, url(images/mobile-line-2.svg) no-repeat bottom/100% auto;
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: 100% 92%; }
@@ -828,7 +828,7 @@ footer {
       .our-insights .boxflorocent .dashbox-title {
         margin-bottom: 80px; }
   .morestories {
-    background-image: url(../images/mobile-shape-top.svg);
+    background-image: url(images/mobile-shape-top.svg);
     margin-top: 79px;
     padding-top: 100px;
     background-position: center -14%;
@@ -955,7 +955,7 @@ footer {
   .navbar-light .navbar-toggler {
     border: 0px; }
   .lineshape {
-    background-image: url(../images/mobile-line-blue.svg);
+    background-image: url(images/mobile-line-blue.svg);
     background-size: contain; } }
 
 @media only screen and (max-width: 320px) {
